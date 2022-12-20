@@ -1,0 +1,46 @@
+.page-container{
+    max-width: 500px;
+    display: block;
+    padding-top: 20%;
+    margin: auto;
+    .cover{
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        color: #000;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    svg{
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        fill: red;
+    }
+    .speed{
+        text-align: center;
+        font-size: 46px;
+        font-weight: 900;
+        color: lightgray;
+        line-height: 50px;
+    }
+    .not-online{
+        margin-top: 40px;
+        text-align: center;
+        color: red;
+        font-weight: 900;
+        font-size: 25px;
+    }
+    button{
+        border: 1px solid green;
+        display: block;
+        margin: auto;
+        outline: none;
+        background-color: #fff;
+        color: #000;
+        height: 33px;
+        width: 69px;
+        border-radius: 12px;
+        margin-top: 40px;
+    }
+}
